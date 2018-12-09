@@ -1,4 +1,4 @@
-# grow website
+# GROW website
 
 Using: 
 [Gatsby](https://www.gatsbyjs.org/) site.
