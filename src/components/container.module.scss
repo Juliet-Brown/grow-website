@@ -1,0 +1,20 @@
+.container {
+  width: 60%;
+  margin: 50px auto;
+  background: white;
+  border-radius: 8px;
+  padding: 50px;
+  border: 1px solid gray;
+  box-shadow: 7px 7px 7px #777777;
+}
+
+.flex {
+  &__Container {
+    display: flex;
+    height: 10vh;
+  }
+
+  &__column {
+    flex-direction: column;
+  }
+}
