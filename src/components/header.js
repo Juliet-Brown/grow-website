@@ -1,13 +1,15 @@
 import React from "react";
 import headerStyles from "./header-css-modules.scss";
+import icon from "../../static/springload_icon.svg";
 
 export default ({ children }) => (
   <div className={headerStyles.container}>
     {children}
-    <nav className="home__navigation" >
-
+    <nav className="home__navigation">
       <ul className="nav flexItem flexStart">
         <li>
+          <img src={icon} alt="icon" />
+
           <span className="grow">GROW </span>
           <a href="http://www.cs.virginia.edu/~robins/YouAndYourResearch.html">
             Springload
@@ -33,7 +35,7 @@ export default ({ children }) => (
     </nav>
   </div>
 
-     //className={headerStyles.bluebackground}
+  //className={headerStyles.bluebackground}
   // <div className={`${headerStyles.header__navigation}`}>
   //     <div className={`${headerStyles.header__item}  ${headerStyles.flex__item} `}>
   //       <span className={`${headerStyles.header__grow}`}>GROW </span>
