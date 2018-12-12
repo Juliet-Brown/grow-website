@@ -130,44 +130,44 @@ h2 {
  *    Header                 *
  **********************************/
 
-.header {
-  &__grow {
-    color: #57bd84;
-  }
-
-  &__item {
-    color: white;
-    text-decoration: none;
-    margin-top: 40px;
-  }
-  &__container {
-    display: flex;
-  }
-
-  &__navigation {
-    display: flex;
-    background: #2f2f2f;
-    padding-left: 100px;
-    padding-right: 100px;
-  }
-
-  &__list {
-    list-style: none;
-    text-transform: uppercase;
-
-    a {
-      text-decoration: none;
-      display: block;
-      padding: 1em 1em;
-      margin-top: 20px;
-
-      color: white;
-      &:hover {
-        background-color: #57bd84;
-      }
-    }
-  }
-}
+// .header {
+//   &__grow {
+//     color: #57bd84;
+//   }
+//
+//   &__item {
+//     color: white;
+//     text-decoration: none;
+//     margin-top: 40px;
+//   }
+//   &__container {
+//     display: flex;
+//   }
+//
+//   &__navigation {
+//     display: flex;
+//     background: #2f2f2f;
+//     padding-left: 100px;
+//     padding-right: 100px;
+//   }
+//
+//   &__list {
+//     list-style: none;
+//     text-transform: uppercase;
+//
+//     a {
+//       text-decoration: none;
+//       display: block;
+//       padding: 1em 1em;
+//       margin-top: 20px;
+//
+//       color: white;
+//       &:hover {
+//         background-color: #57bd84;
+//       }
+//     }
+//   }
+// }
 
 .content {
   order: 2;
