@@ -11,7 +11,7 @@ export default ({ children }) => (
     <main
       className={`${footerStyles.flexItem} ${footerStyles.content}`}
       className={`${footerStyles.flex__container}
-    ${styles.flexCenter}`}
+    ${footerStyles.flexCenter}`}
     >
       <div className={`${footerStyles.sidebar} ${footerStyles.contentLeft}`}>
         <h3>Making Tech Better Since 2009</h3>

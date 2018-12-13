@@ -6,7 +6,7 @@ export default ({ children }) => (
     <main
       className={`${contentStyles.flex_item} ${contentStyles.content}`}
       className={`${contentStyles.flex__container}
-    ${styles.flexCenter}`}
+    ${contentStyles.flexCenter}`}
     >
       <div className={`${contentStyles.sidebar} ${contentStyles.contentLeft}`}>
         <h2>Upcoming Events</h2>
