@@ -1,17 +1,14 @@
 import React from "react";
 import footerStyles from "./footer-css-modules.scss";
 
-export default ({ children }) => (
+export default ({footerDescription}) => (
   <footer
-    className={footerStyles.flex__container}
-    className={footerStyles.flexCenter}
-    className={footerStyles.footer}
+    className={`${footerStyles.flex__container} ${footerStyles.flexCenter} ${footerStyles.footer}`}
   >
-    &copy; {children.footerDescription}
+    &copy; {footerDescription}
     <main
-      className={`${footerStyles.flexItem} ${footerStyles.content}`}
-      className={`${footerStyles.flex__container}
-    ${footerStyles.flexCenter}`}
+    className={`${footerStyles.flexItem} ${footerStyles.content} ${footerStyles.flex__container}
+  ${footerStyles.flexCenter}`}
     >
       <div className={`${footerStyles.sidebar} ${footerStyles.contentLeft}`}>
         <h3>Making Tech Better Since 2009</h3>

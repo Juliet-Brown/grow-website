@@ -1,11 +1,14 @@
 import React from "react";
 import contentStyles from "./content-css-modules.scss";
 
-export default ({ children }) => (
-  <div className={contentStyles.flex__container} className={contentStyles.flex__item}>
+export default () => (
+  <div
+    className={`{contentStyles.flex__container} ${contentStyles.flex__item}`}
+  >
     <main
-      className={`${contentStyles.flex_item} ${contentStyles.content}`}
-      className={`${contentStyles.flex__container}
+      className={`${contentStyles.flex_item} ${contentStyles.content} ${
+        contentStyles.flex__container
+      }
     ${contentStyles.flexCenter}`}
     >
       <div className={`${contentStyles.sidebar} ${contentStyles.contentLeft}`}>
@@ -27,18 +30,22 @@ export default ({ children }) => (
 
     <div
       className={`${contentStyles.flex__container}
-      ${contentStyles.flexCenter} ${contentStyles.itemCenter} ${contentStyles.imageHeight} ${
-        contentStyles.centerImage
-      }`}
+      ${contentStyles.flexCenter} ${contentStyles.itemCenter} ${
+        contentStyles.imageHeight
+      } ${contentStyles.centerImage}`}
     >
-      <aside className={`${contentStyles.sidebar} ${contentStyles.sidebarLeft}`}>
+      <aside
+        className={`${contentStyles.sidebar} ${contentStyles.sidebarLeft}`}
+      >
         <h2>Left Sidebar</h2>
         <p>
           Put your content here, Put your content here, Put your content
           here,Put your content here
         </p>
       </aside>
-      <aside className={`${contentStyles.sidebar} ${contentStyles.sidebarRight}`}>
+      <aside
+        className={`${contentStyles.sidebar} ${contentStyles.sidebarRight}`}
+      >
         <h2>Right Sidebar</h2>
         <p>
           Put your content here, Put your content here ,Put your content
@@ -47,5 +54,4 @@ export default ({ children }) => (
       </aside>
     </div>
   </div>
-
 );

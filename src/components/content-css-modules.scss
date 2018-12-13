@@ -1,0 +1,28 @@
+.content {
+  order: 2;
+  height: 400px;
+  padding: 40px 200px 40px 200px;
+  border-left: 1px solid #777777;
+  border-right: 1px solid #777777;
+}
+
+.contentLeft,
+.contentRight {
+  order: 1;
+  width: 40%;
+  padding: 20px;
+}
+
+.sidebarLeft {
+  order: 1;
+  width: 20%;
+  background: white;
+  padding: 20px;
+}
+
+.sidebarRight {
+  order: 3;
+  width: 20%;
+  background: white;
+  padding: 20px;
+}
