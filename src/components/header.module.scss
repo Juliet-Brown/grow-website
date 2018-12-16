@@ -60,8 +60,37 @@
   }
 
   &__img {
-    width: 5rem;
+    width: 5em;
     fill: #57bd84;
-    display: flex;
+    // display: flex;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .flex {
+    &__container {
+      flex-direction: col;
+    }
+  }
+}
+@media only screen and (min-width: 600px) {
+  .flex {
+    &__container {
+      flex-direction: col;
+    }
+  }
+}
+@media only screen and (min-width: 768px) {
+  .flex {
+    &__container {
+      flex-direction: row;
+    }
+  }
+}
+@media only screen and (min-width: 992px) {
+  .flex {
+    &__container {
+      flex-direction: row;
+    }
   }
 }
