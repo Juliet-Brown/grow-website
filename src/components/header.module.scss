@@ -1,6 +1,9 @@
 .flex {
   &__item {
     flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
   }
   &__container {
     display: flex;
@@ -14,7 +17,10 @@
   &__grow {
     color: #57bd84;
   }
-
+  &__springload {
+    color: white;
+    text-decoration: none;
+  }
   &__item {
     color: white;
     text-decoration: none;
@@ -49,8 +55,7 @@
   }
 
   &__img {
-    width: 4.1875rem;
-    height: 1.875rem;
+    width: 15rem;
     fill: #57bd84;
     display: flex;
   }
