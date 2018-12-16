@@ -7,6 +7,15 @@
   }
   &__container {
     display: flex;
+    flex-direction: row;
+  }
+  &__list {
+    justify-content: flex-end;
+    flex: 2.8;
+  }
+  &__logo {
+    justify-content: flex-end;
+    flex: 0.5;
   }
 }
 /* *********************************
@@ -17,14 +26,10 @@
   &__grow {
     color: #57bd84;
   }
-  &__springload {
-    color: white;
-    text-decoration: none;
-  }
+
   &__item {
     color: white;
     text-decoration: none;
-    margin-top: 40px;
   }
   &__container {
     display: flex;
@@ -55,7 +60,7 @@
   }
 
   &__img {
-    width: 15rem;
+    width: 5rem;
     fill: #57bd84;
     display: flex;
   }

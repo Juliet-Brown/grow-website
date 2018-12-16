@@ -2,31 +2,30 @@ import React from "react";
 import headerStyles from "./header-css-modules.scss";
 
 export default () => (
-  // <div className={headerStyles.container}>
-
   <nav className={`${headerStyles.header__navigation}`}>
     <div
-      className={`${headerStyles.header__item}  ${headerStyles.flex__item} `}
+      className={`${headerStyles.header__item}  ${headerStyles.flex__item} ${
+        headerStyles.flex__container
+      } `}
     >
       <div
-        className={`${headerStyles.header__img}  ${headerStyles.flex__item} `}
+        className={`${headerStyles.header__img}  ${headerStyles.flex__item} ${
+          headerStyles.flex__logo
+        } `}
       >
         <img src={icon} alt="icon" />
       </div>
       <div className={` ${headerStyles.flex__item} `}>
-        <span className={`${headerStyles.header__grow}`}>GROW &nbsp; </span>
-        <a
-          className={`${headerStyles.header__springload}`}
-          href="/home-css-modules"
-        >
+        <span className={`${headerStyles.header__grow} `}>GROW &nbsp; </span>
+        <a className={`${headerStyles.header__item}`} href="/home-css-modules">
           Springload
         </a>
       </div>
     </div>
     <ul
-      className={`${headerStyles.header__list} ${
+      className={`${headerStyles.header__list} ${headerStyles.flex__list} ${
         headerStyles.flex__container
-      } ${headerStyles.flexEnd}`}
+      } ${headerStyles.flex__item}`}
     >
       <li>
         <a href="/home-css-modules">Home</a>
@@ -75,6 +74,7 @@ export default () => (
       </li>
     </ul>
   </nav>
+<<<<<<< HEAD
   // </div>
 
   // <div className={headerStyles.bluebackground} >
@@ -147,4 +147,6 @@ export default () => (
   //   </nav>
   // </div>
 >>>>>>> 453fe8c... add flex styling
+=======
+>>>>>>> 10eef2d... fix header styling
 );
