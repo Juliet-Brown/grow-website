@@ -1,5 +1,5 @@
 import React from "react";
-import contentStyles from "./content-css-modules.scss";
+import contentStyles from "./content.module.scss";
 
 export default () => (
   <div

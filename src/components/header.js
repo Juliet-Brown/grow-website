@@ -1,11 +1,12 @@
 import React from "react";
-import headerStyles from "./header-css-modules.scss";
+import headerStyles from "./header.module.scss";
 import icon from "../../static/springload_icon.svg";
 
-export default ({ children }) => (
-  <div className={headerStyles.container}>
-    {children}
+export default () => (
+  // <div className={headerStyles.container}>
+
     <nav className={`${headerStyles.header__navigation}`}>
+
       <div
         className={`${headerStyles.header__item}  ${headerStyles.flex__item} `}
       >
@@ -13,7 +14,7 @@ export default ({ children }) => (
         <span className={`${headerStyles.header__grow}`}>GROW </span>
         <a
           className={`${headerStyles.header__item}`}
-          href="http://www.cs.virginia.edu/~robins/YouAndYourResearch.html"
+          href="/home-css-modules"
         >
           Springload
         </a>
@@ -25,7 +26,7 @@ export default ({ children }) => (
         } ${headerStyles.flexEnd}`}
       >
         <li>
-          <a href="http://www.cs.virginia.edu/~robins/YouAndYourResearch.html">
+          <a href="/home-css-modules">
             Home
           </a>
         </li>
@@ -39,7 +40,7 @@ export default ({ children }) => (
         </li>
       </ul>
     </nav>
-  </div>
+  // </div>
 
   // <div className={headerStyles.bluebackground} >
   // <div className={`${headerStyles.header__navigation}`}>
