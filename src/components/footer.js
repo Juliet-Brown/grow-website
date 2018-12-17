@@ -1,5 +1,8 @@
 import React from "react";
 import footerStyles from "./footer.module.scss";
+import facebook from "../../static/facebook_icon.svg";
+import instagram from "../../static/instagram_icon.svg";
+import twitter from "../../static/twitter_icon.svg";
 
 export default ({ footerDescription }) => (
   <footer
@@ -24,6 +27,9 @@ export default ({ footerDescription }) => (
       </div>
       <div className={` ${footerStyles.footer__contentRight}`}>
         <h3>Space for social media icons.  </h3>
+        <img src={facebook} alt="Facebook Icon" />
+        <img src={instagram} alt="Instagram Icon" />
+        <img src={twitter} alt="Twitter Icon" />
         <p>
           {" "}
           What? We're not at all alike!
