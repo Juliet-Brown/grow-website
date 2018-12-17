@@ -27,9 +27,9 @@ export default ({ footerDescription }) => (
       </div>
       <div className={` ${footerStyles.footer__contentRight}`}>
         <h3>Space for social media icons.  </h3>
-        <img src={facebook} alt="Facebook Icon" />
-        <img src={instagram} alt="Instagram Icon" />
-        <img src={twitter} alt="Twitter Icon" />
+        <a href="" ><img src={facebook} alt="Facebook Icon" /></a>
+        <a href="https://instagram.com/growbyspringload" ><img src={instagram} alt="Instagram Icon" /></a>
+        <a href="https://twitter.com/growspringload" ><img src={twitter} alt="Twitter Icon" /></a>
         <p>
           {" "}
           What? We're not at all alike!
