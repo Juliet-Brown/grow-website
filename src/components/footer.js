@@ -18,7 +18,7 @@ export default ({ footerDescription }) => (
   ${footerStyles.flexCenter}`}
     >
       <div className={` ${footerStyles.footer__contentLeft}`}>
-        <h3>Making Tech Better Since 2019</h3>
+        <h3>Helping you GROW since 2019</h3>
         <p>
           What? We're not at all alike! Some days you get the bear, and some
           days the bear gets you. Maybe if we felt any human loss as keenly as
