@@ -27,7 +27,7 @@ export default ({ footerDescription }) => (
         </p>{" "}
       </div>
       <div className={` ${footerStyles.footer__contentRight} `}>
-        <h3>Space for social media icons.  </h3>
+        <h3>Contact Us  </h3>
         <a className={`${footerStyles.footer__img}`} href="" ><img src={facebook} alt="Facebook Icon" /></a>
         <a className={`${footerStyles.footer__img}`} href="https://instagram.com/growbyspringload" ><img src={instagram} alt="Instagram Icon" /></a>
         <a className={`${footerStyles.footer__img}`} href="https://twitter.com/growspringload" ><img src={twitter} alt="Twitter Icon" /></a>
