@@ -1,4 +1,3 @@
-
 .flex {
   &__item {
     flex: 1;
@@ -19,21 +18,18 @@
     flex: 0.5;
   }
 }
-
 /* *********************************
  *    Header                 *
  **********************************/
 
- .header {
-   &__grow {
-     color: #57bd84;
+.header {
+  &__grow {
+    color: #57bd84;
   }
 
   &__item {
     color: white;
     text-decoration: none;
-    margin-top: 40px;
-
   }
   &__container {
     display: flex;
@@ -42,8 +38,6 @@
   &__navigation {
     display: flex;
     background: #2f2f2f;
-    padding-left: 100px;
-    padding-right: 100px;
   }
 
   &__list {
