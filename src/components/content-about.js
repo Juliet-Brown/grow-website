@@ -33,28 +33,34 @@ export default () => (
         exercitation aliqua excepteur ad amet ut exercitation duis aliqua ex ut
         in laborum aliquip.
       </div>
-
-    <aside
-      className={`${aboutContentStyles.sidebar} ${
-        aboutContentStyles.sidebarLeft
-      }`}
-    >
-      <h2>Things you should know</h2>
-      <p>
-        Put your content here, Put your content here, Put your content here,Put
-        your content here
-      </p>
-    </aside>
-    <aside
-      className={`${aboutContentStyles.sidebar} ${
-        aboutContentStyles.imageRight
-      } ${aboutContentStyles.flex__container}
-        ${aboutContentStyles.flexCenter} ${aboutContentStyles.itemCenter} ${
-        aboutContentStyles.imageHeight
-      } ${aboutContentStyles.centerImage}`}
-    >
-      <h2>Image</h2>
-    </aside>
     </main>
+    <div
+      className={`${aboutContentStyles.flex_item} ${
+        aboutContentStyles.content
+      } ${aboutContentStyles.flex__container}
+    ${aboutContentStyles.flexCenter}`}
+    >
+      <aside
+        className={`${aboutContentStyles.sidebar} ${
+          aboutContentStyles.sidebarLeft
+        }`}
+      >
+        <h2>Things you should know</h2>
+        <p>
+          Put your content here, Put your content here, Put your content
+          here,Put your content here
+        </p>
+      </aside>
+      <aside
+        className={`${aboutContentStyles.sidebar} ${
+          aboutContentStyles.imageRight
+        } ${aboutContentStyles.flex__container}
+        ${aboutContentStyles.flexCenter} ${aboutContentStyles.itemCenter} ${
+          aboutContentStyles.imageHeight
+        } ${aboutContentStyles.centerImage}`}
+      >
+        <h2>Image</h2>
+      </aside>
+    </div>
   </div>
 );
