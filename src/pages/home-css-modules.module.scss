@@ -127,76 +127,37 @@ h2 {
 }
 
 /* *********************************
- *    Header                 *
+ *    Content                 *
  **********************************/
 
-.header {
-  &__grow {
-    color: #57bd84;
-  }
-
-  &__item {
-    color: white;
-    text-decoration: none;
-    margin-top: 40px;
-  }
-  &__container {
-    display: flex;
-  }
-
-  &__navigation {
-    display: flex;
-    background: #2f2f2f;
-    padding-left: 100px;
-    padding-right: 100px;
-  }
-
-  &__list {
-    list-style: none;
-    text-transform: uppercase;
-
-    a {
-      text-decoration: none;
-      display: block;
-      padding: 1em 1em;
-      margin-top: 20px;
-
-      color: white;
-      &:hover {
-        background-color: #57bd84;
-      }
-    }
-  }
-}
-
-.content {
-  order: 2;
-  height: 400px;
-  padding: 40px 200px 40px 200px;
-  border-left: 1px solid #777777;
-  border-right: 1px solid #777777;
-}
-
-.contentLeft,
-.contentRight {
-  order: 1;
-  width: 40%;
-  padding: 20px;
-}
-
-.sidebarLeft {
-  order: 1;
-  width: 20%;
-  background: white;
-  padding: 20px;
-}
-
-.sidebarRight {
-  order: 3;
-  width: 20%;
-  background: white;
-  padding: 20px;
-}
+// .content {
+//   order: 2;
+//   height: 400px;
+//   padding: 40px 200px 40px 200px;
+//   border-left: 1px solid #777777;
+//   border-right: 1px solid #777777;
+// }
+//
+// .contentLeft,
+// .contentRight {
+//   order: 1;
+//   width: 40%;
+//   padding: 20px;
+// }
+//
+// .sidebarLeft {
+//   order: 1;
+//   width: 20%;
+//   background: white;
+//   padding: 20px;
+// }
+//
+// .sidebarRight {
+//   order: 3;
+//   width: 20%;
+//   background: white;
+//   padding: 20px;
+// }
 
 /* *********************************
  *    3 Column Layout              *
