@@ -13,7 +13,6 @@ export default () => (
       springLoad="Springload"
       about="about"
       home="home"
-      contact="contact"
       join="join"
     />
     <div
