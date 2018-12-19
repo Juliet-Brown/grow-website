@@ -1,0 +1,58 @@
+.banner {
+	  background: url("https://placeimg.com/640/480/any");
+	  width: 100%;
+	  background-size: cover;
+	  display: flex;
+	  display: block;
+	  position: relative;
+
+	  &__overlay {
+	    order: 1;
+	    width: 20%;
+	    padding: 20px;
+	    border-radius: 10px;
+	    color: white;
+	    padding: 20px;
+	    width: 700px;
+	    margin: 120px auto 120px auto;
+	  }
+	}
+
+	/* *********************************
+	 *   Generic styling     *
+	 **********************************/
+	* {
+	  -webkit-box-sizing: border-box;
+	  -moz-box-sizing: border-box;
+	  box-sizing: border-box;
+	}
+
+	body {
+	  margin: 0;
+	  font-family: "Montserrat", sans-serif;
+	  font-size: 1em;
+	  color: #1e1e1e;
+	}
+
+	h2 {
+	  text-align: center;
+	}
+
+	/* *********************************
+	 *    Generic FlexBox Styling      *
+	 **********************************/
+
+	.flex {
+	  &__item {
+	    flex: 1;
+	  }
+
+	  &__container {
+	    display: flex;
+	  }
+	}
+
+	// TODO: classes to renamed into BEM styling
+	.flexCenter {
+	  justify-content: center;
+	}
