@@ -1,23 +1,22 @@
 .content {
   padding: 40px 200px 40px 200px;
-  flex-direction: row;
+
 }
 
 .sidebarLeft,
-.contentRight {
-  width: 40%;
-  padding: 20px;
+.sidebarRight {
+  width: 60%;
+  padding: 40px;
 }
 
 .flex {
   &__item {
     flex: 1;
-
+    flex-direction: column;
   }
 
   &__container {
     display: flex;
-    flex-direction: column;
   }
 }
 

@@ -21,11 +21,11 @@ export default () => (
           aboutContentStyles.imageHeight
         } ${aboutContentStyles.centerImage}`}
       >
-        <h2>Left Image</h2>{" "}
+        <h2>Image</h2>{" "}
       </div>
       <div
         className={`${aboutContentStyles.sidebar} ${
-          aboutContentStyles.contentRight
+          aboutContentStyles.sidebarRight
         }`}
       >
         <h2>Who are we?</h2>
@@ -33,7 +33,6 @@ export default () => (
         exercitation aliqua excepteur ad amet ut exercitation duis aliqua ex ut
         in laborum aliquip.
       </div>
-    </main>
 
     <aside
       className={`${aboutContentStyles.sidebar} ${
@@ -54,7 +53,8 @@ export default () => (
         aboutContentStyles.imageHeight
       } ${aboutContentStyles.centerImage}`}
     >
-      <h2>Right Image</h2>
+      <h2>Image</h2>
     </aside>
+    </main>
   </div>
 );
