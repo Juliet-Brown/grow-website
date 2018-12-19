@@ -1,5 +1,6 @@
 .content {
   padding: 40px 200px 40px 200px;
+  flex-direction: row;
 }
 
 .sidebarLeft,
@@ -11,7 +12,7 @@
 .flex {
   &__item {
     flex: 1;
-    flex-direction: column;
+
   }
 
   &__container {
