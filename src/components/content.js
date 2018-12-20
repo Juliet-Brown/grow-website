@@ -3,7 +3,7 @@ import contentStyles from "./content.module.scss";
 
 export default () => (
   <div
-    className={`{contentStyles.flex__container} ${contentStyles.flex__item}`}
+    className={`${contentStyles.flex__container} ${contentStyles.flex__item}`}
   >
     <main
       className={`${contentStyles.flex_item} ${contentStyles.content} ${

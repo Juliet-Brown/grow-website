@@ -51,141 +51,6 @@ h2 {
   text-align: center;
 }
 
-/* *********************************
- *    Generic FlexBox Styling      *
- **********************************/
-
-.flex {
-  &__item {
-    flex: 1;
-  }
-
-  &__container {
-    display: flex;
-  }
-}
-
-// TODO: classes to renamed into BEM styling
-.flexCenter {
-  justify-content: center;
-}
-.flexEnd {
-  justify-content: flex-end;
-}
-.flexWrap {
-  flex-wrap: wrap;
-}
-.itemCenter {
-  align-items: center;
-}
-.flexColumn {
-  flex-direction: column;
-}
-.flexSpaceBetween {
-  justify-content: space-between;
-}
-.flexSpaceAround {
-  justify-content: space-around;
-}
-
-/* *********************************
- *    Shared Styling               *
- **********************************/
-.fullHeight {
-  height: 100vh;
-}
-
-.header {
-  &__container {
-  }
-}
-
-.footer {
-  height: 250px;
-  background: #2f2f2f;
-}
-
-.redBackground {
-  background: red;
-}
-
-.whiteText {
-  color: white;
-}
-
-.height50 {
-  height: 50px;
-  line-height: 50px;
-}
-
-.marginTop {
-  margin-top: 50px;
-}
-
-.marginBottom {
-  margin-bottom: 25px;
-}
-
-/* *********************************
- *    Content                 *
- **********************************/
-
-// .content {
-//   order: 2;
-//   height: 400px;
-//   padding: 40px 200px 40px 200px;
-//   border-left: 1px solid #777777;
-//   border-right: 1px solid #777777;
-// }
-//
-// .contentLeft,
-// .contentRight {
-//   order: 1;
-//   width: 40%;
-//   padding: 20px;
-// }
-//
-// .sidebarLeft {
-//   order: 1;
-//   width: 20%;
-//   background: white;
-//   padding: 20px;
-// }
-//
-// .sidebarRight {
-//   order: 3;
-//   width: 20%;
-//   background: white;
-//   padding: 20px;
-// }
-
-/* *********************************
- *    3 Column Layout              *
- **********************************/
-
-.col {
-  width: 32%;
-  border: 1px solid #777777;
-  border-radius: 8px;
-  background: white;
-  padding: 20px;
-}
-
-.flexCenter {
-  justify-content: center;
-}
-
-.imageHeight {
-  height: 30vh;
-}
-
-.itemCenter {
-  align-items: center;
-}
-
-.fullHeight {
-  height: 60vh;
-}
 
 /* *********************************
  *    Center Image                 *
@@ -194,5 +59,11 @@ h2 {
 .centerImage {
   background: url("https://placeimg.com/640/480/any") center;
   background-size: cover;
+}
+.itemCenter {
+  align-items: center;
+}
+
+.imageHeight {
   height: 400px;
 }
