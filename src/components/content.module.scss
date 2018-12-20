@@ -1,28 +1,51 @@
 .content {
-  order: 2;
-  height: 400px;
   padding: 40px 200px 40px 200px;
-  border-left: 1px solid #777777;
-  border-right: 1px solid #777777;
 }
 
 .contentLeft,
 .contentRight {
-  order: 1;
   width: 40%;
   padding: 20px;
 }
 
+.sidebarRight,
 .sidebarLeft {
-  order: 1;
   width: 20%;
   background: white;
   padding: 20px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  text-align: left;
 }
 
-.sidebarRight {
-  order: 3;
-  width: 20%;
-  background: white;
-  padding: 20px;
+.flex {
+  &__item {
+    flex: 1;
+    flex-direction: column;
+  }
+
+  &__container {
+    display: flex;
+  }
+}
+
+.flexCenter {
+  justify-content: center;
+}
+
+.itemCenter {
+  align-items: center;
+}
+
+.centerImage {
+  align-items: center;
+  justify-content: center;
+
+}
+
+.imageHeight {
+  background: url("https://placeimg.com/640/480/any");
+  width: 100%;
+  background-size: cover;
+  position: relative;
 }
