@@ -1,0 +1,16 @@
+.flex {
+  &__item {
+    flex: 1;
+  }
+
+  &__container {
+    display: flex;
+  }
+}
+
+.content {
+  display: flex;
+  padding: 30px;
+  padding-left: 200px;
+  height: 400px;
+}
