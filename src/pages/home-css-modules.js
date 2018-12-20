@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./home-css-modules.module.scss";
+import flexStyles from "../components/flex.module.scss";
 import Container from "../components/container";
 import Header from "../components/header";
 import Content from "../components/content";
@@ -16,8 +17,8 @@ export default () => (
       join="join"
     />
     <div
-      className={`${styles.flex__container} ${styles.banner}
-      ${styles.flexCenter} ${styles.itemCenter} ${styles.imageHeight} ${
+      className={`${flexStyles.flex__container} ${styles.banner}
+      ${flexStyles.flex__center} ${styles.itemCenter} ${styles.imageHeight} ${
         styles.centerImage
       }`}
     >
@@ -27,8 +28,8 @@ export default () => (
           Put your content here, Put your content here, Put your content here
         </p>
         <div
-          className={`${styles.flex__container}
-        ${styles.flexCenter}`}
+          className={`${flexStyles.flex__container}
+        ${flexStyles.flex__center}`}
         >
           <a href="/about-css-modules" className={`${styles.action}`}>
             Enter

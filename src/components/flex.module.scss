@@ -1,0 +1,34 @@
+/* *********************************
+ *    Generic FlexBox Styling      *
+ **********************************/
+
+.flex {
+  &__item {
+    flex: 1;
+  }
+
+  &__container {
+    display: flex;
+  }
+}
+
+.flex {
+  &__center {
+    justify-content: center;
+  }
+  &__end {
+    justify-content: flex-end;
+  }
+  &__wrap {
+    flex-wrap: wrap;
+  }
+  &__column {
+    flex-direction: column;
+  }
+  &__spaceBetween {
+    justify-content: space-between;
+  }
+  &__spaceAround {
+    justify-content: space-around;
+  }
+}
