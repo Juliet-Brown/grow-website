@@ -36,9 +36,7 @@ export default () => (
         <a href="/about-css-modules">About</a>
       </li>
       <li>
-        <a href="http://www.cs.virginia.edu/~robins/YouAndYourResearch.html">
-          Join
-        </a>
+        <a href="/join-css-modules">Join</a>
       </li>
     </ul>
   </nav>
