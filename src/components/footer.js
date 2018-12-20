@@ -28,10 +28,10 @@ export default ({ footerDescription }) => (
       </div>
       <div className={` ${footerStyles.footer__contentRight} `}>
         <h3>Contact Us  </h3>
-        <a className={`${footerStyles.footer__img}`} href="" ><img src={facebook} alt="Facebook Icon" /></a>
+        <img src={facebook} alt="Facebook Icon" />
         <a className={`${footerStyles.footer__img}`} href="https://instagram.com/growbyspringload" ><img src={instagram} alt="Instagram Icon" /></a>
         <a className={`${footerStyles.footer__img}`} href="https://twitter.com/growspringload" ><img src={twitter} alt="Twitter Icon" /></a>
-        <a className={`${footerStyles.footer__img}`} href="" ><img src={github} alt="GitHub Icon" /></a>
+        <img src={github} alt="GitHub Icon" />
         <p>
           {" "}
           What? We're not at all alike!
