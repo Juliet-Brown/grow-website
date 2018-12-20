@@ -1,0 +1,42 @@
+.content {
+  padding: 40px 200px 40px 200px;
+
+}
+
+.sidebarLeft,
+.sidebarRight {
+  width: 50%;
+  padding: 45px;
+}
+
+.flex {
+  &__item {
+    flex: 1;
+    flex-direction: column;
+  }
+
+  &__container {
+    display: flex;
+  }
+}
+
+.flexCenter {
+  justify-content: center;
+}
+
+.itemCenter {
+  align-items: center;
+}
+
+.centerImage {
+  align-items: center;
+  justify-content: center;
+}
+
+.imageLeft,
+.imageRight {
+  background: url("https://placeimg.com/640/480/any");
+  width: 45%;
+  background-size: cover;
+  position: relative;
+}
