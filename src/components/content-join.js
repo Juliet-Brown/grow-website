@@ -5,6 +5,8 @@ export default () => (
   <div
     className={`${contentStyles.flex__container} ${contentStyles.flex__item}`}
   >
-    <p>Insert lilregie form here</p>
+    <div className={` ${contentStyles.form}`}>
+      <h2>Insert lilregie form here</h2>
+    </div>
   </div>
 );
