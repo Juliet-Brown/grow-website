@@ -1,0 +1,48 @@
+.footer {
+  height: auto;
+  background: #2f2f2f;
+
+  &__content {
+    margin-right: 220px;
+    margin-left: 220px;
+    margin-top: 20px;
+  }
+
+  &__contentLeft {
+    color: #fff;
+    text-align: left;
+    justify-content: flex-start;
+    flex: 1;
+    padding-right: 20px;
+  }
+
+  &__contentRight {
+    justify-content: flex-end;
+    flex: 1;
+    color: white;
+    text-align: right;
+    padding-left: 20px;
+  }
+
+  &__copy {
+    color: #000;
+    align-items: flex-end;
+  }
+  img {
+    width: 2em;
+    margin-left: 20px;
+  }
+}
+
+.flexItem {
+  flex: 1;
+}
+
+.flexCenter {
+  justify-content: center;
+}
+.flex {
+  &__container {
+    display: flex;
+  }
+}
