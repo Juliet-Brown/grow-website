@@ -17,7 +17,7 @@ export default ({ footerDescription }) => (
       }
   ${footerStyles.flexCenter}`}
     >
-      <div className={` ${footerStyles.footer__contentLeft}`}>
+      <div className={` ${footerStyles.footer__left}`}>
         <h3>Helping you GROW since 2019</h3>
         <p>
           What? We're not at all alike! Some days you get the bear, and some
@@ -26,7 +26,7 @@ export default ({ footerDescription }) => (
           bloody. Yesterday I did not know how to eat gagh.
         </p>{" "}
       </div>
-      <div className={` ${footerStyles.footer__contentRight} `}>
+      <div className={` ${footerStyles.footer__right} `}>
         <h3>Contact Us  </h3>
         <img src={facebook} alt="Facebook Icon" />
         <a className={`${footerStyles.footer__img}`} href="https://instagram.com/growbyspringload" ><img src={instagram} alt="Instagram Icon" /></a>
