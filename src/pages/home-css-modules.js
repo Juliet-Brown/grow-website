@@ -13,7 +13,6 @@ export default () => (
       springLoad="Springload"
       about="about"
       home="home"
-      contact="contact"
       join="join"
     />
     <div
@@ -31,7 +30,7 @@ export default () => (
           className={`${styles.flex__container}
         ${styles.flexCenter}`}
         >
-          <a href="index.html" className={`${styles.action}`}>
+          <a href="/about-css-modules" className={`${styles.action}`}>
             Enter
           </a>
         </div>
