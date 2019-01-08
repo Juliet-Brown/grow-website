@@ -9,12 +9,7 @@ console.log(styles);
 
 export default () => (
   <div>
-    <Header
-      springLoad="Springload"
-      about="about"
-      home="home"
-      join="join"
-    />
+    <Header springLoad="Springload" about="about" home="home" join="join" />
     <div
       className={`${styles.flex__container} ${styles.banner}
       ${styles.flexCenter} ${styles.itemCenter} ${styles.imageHeight} ${

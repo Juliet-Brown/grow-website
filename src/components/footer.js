@@ -27,15 +27,25 @@ export default ({ footerDescription }) => (
         </p>{" "}
       </div>
       <div className={` ${footerStyles.footer__right} `}>
-        <h3>Contact Us  </h3>
+        <h3>Contact Us </h3>
         <img src={facebook} alt="Facebook Icon" />
-        <a className={`${footerStyles.footer__img}`} href="https://instagram.com/growbyspringload" ><img src={instagram} alt="Instagram Icon" /></a>
-        <a className={`${footerStyles.footer__img}`} href="https://twitter.com/growspringload" ><img src={twitter} alt="Twitter Icon" /></a>
+        <a
+          className={`${footerStyles.footer__img}`}
+          href="https://instagram.com/growbyspringload"
+        >
+          <img src={instagram} alt="Instagram Icon" />
+        </a>
+        <a
+          className={`${footerStyles.footer__img}`}
+          href="https://twitter.com/growspringload"
+        >
+          <img src={twitter} alt="Twitter Icon" />
+        </a>
         <img src={github} alt="GitHub Icon" />
         <p>
           {" "}
-          What? We're not at all alike!
-          Some days you get the bear, and some days the bear gets you.{" "}
+          What? We're not at all alike! Some days you get the bear, and some
+          days the bear gets you.{" "}
         </p>
       </div>
     </main>

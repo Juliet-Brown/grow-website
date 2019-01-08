@@ -9,12 +9,7 @@ console.log(styles);
 
 export default () => (
   <div>
-    <Header
-      springLoad="Springload"
-      about="about"
-      home="home"
-      join="join"
-    />
+    <Header springLoad="Springload" about="about" home="home" join="join" />
     <div
       className={`${styles.flex__container} ${styles.banner}
       ${styles.flexCenter} ${styles.itemCenter} ${styles.imageHeight} ${
@@ -23,7 +18,6 @@ export default () => (
     >
       <aside className={`${styles.banner__overlay}`}>
         <h2>JOIN GROW!</h2>
-
       </aside>
     </div>
     <Container>
