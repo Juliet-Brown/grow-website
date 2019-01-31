@@ -1,37 +1,4 @@
-.contentLeft,
-.contentRight {
-  width: 40%;
-  padding: 20px;
-}
 
-.sidebarRight,
-.sidebarLeft {
-  width: 20%;
-  background: white;
-  padding: 20px;
-  margin-top: 60px;
-  margin-bottom: 60px;
-  text-align: left;
-}
-
-.flex {
-  &__item {
-    flex: 1;
-    flex-direction: column;
-  }
-
-  &__container {
-    display: flex;
-  }
-}
-
-.flexCenter {
-  justify-content: center;
-}
-
-.itemCenter {
-  align-items: center;
-}
 
 .centerImage {
   align-items: center;
@@ -45,23 +12,164 @@
   position: relative;
 }
 
-@media only screen and (max-width: 600px) {
-  .content {
-    padding: 10px 50px 10px 50px;
+@media only screen and (max-width: 480px) {
+  .sidebar {
+    padding-left: 50px;
+    padding-right: 50px;
+    .itemCenter {
+      align-content: center;
+    }
   }
+  .contentRight {
+    padding-bottom: 40px;
+  }
+  .contentLeft {
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+  .sidebarRight,
+  .sidebarLeft {
+    width: 80%;
+    background: white;
+    padding: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  .imageHeight {
+    padding: 20px;
+  }
+
+}
+@media only screen and (min-width: 480px) {
+
+  .sidebar {
+    padding-left: 80px;
+    padding-right: 80px;
+    .itemCenter {
+      align-content: center;
+    }
+  }
+  .contentRight {
+    padding-bottom: 40px;
+  }
+  .contentLeft {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .sidebarRight,
+  .sidebarLeft {
+    width: 70%;
+    background: white;
+    padding: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: left;
+  }
+  .imageHeight {
+    padding: 30px;
+  }
+
 }
 @media only screen and (min-width: 600px) {
-  .content {
-    padding: 10px 50px 10px 50px;
+  .sidebar {
+    padding-left: 110px;
+    padding-right: 110px;
+    .itemCenter {
+      align-content: center;
+    }
+  }
+  .contentRight {
+    padding-bottom: 40px;
+  }
+  .contentLeft {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .sidebarRight,
+  .sidebarLeft {
+    width: 60%;
+    background: white;
+    padding: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: left;
+  }
+  .imageHeight {
+    padding: 30px;
   }
 }
-@media only screen and (min-width: 768px) {
-  .content {
-    padding: 20px 100px 20px 100px;
+@media only screen and (min-width: 770px) {
+
+  .contentLeft,
+  .contentRight {
+    width: 50%;
+    padding: 60px;
+  }
+
+  .sidebarRight,
+  .sidebarLeft {
+    width: 30%;
+    background: white;
+    padding: 20px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: left;
+  }
+
+  .flex {
+    &__item {
+      flex: 1;
+      flex-direction: column;
+    }
+
+    &__container {
+      display: flex;
+    }
+  }
+
+  .flexCenter {
+    justify-content: center;
+  }
+
+  .itemCenter {
+    align-items: center;
   }
 }
-@media only screen and (min-width: 992px) {
-  .content {
-    padding: 40px 200px 40px 200px;
+@media only screen and (min-width: 1000px) {
+  
+  .contentLeft,
+  .contentRight {
+    width: 40%;
+    padding: 40px;
+  }
+
+  .sidebarRight,
+  .sidebarLeft {
+    width: 30%;
+    background: white;
+    padding: 20px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: left;
+  }
+
+  .flex {
+    &__item {
+      flex: 1;
+      flex-direction: column;
+    }
+
+    &__container {
+      display: flex;
+    }
+  }
+
+  .flexCenter {
+    justify-content: center;
+  }
+
+  .itemCenter {
+    align-items: center;
   }
 }
