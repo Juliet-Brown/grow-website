@@ -29,15 +29,16 @@
   }
   .sidebarRight,
   .sidebarLeft {
-    width: 80%;
+    // width: 80%;
     background: white;
     padding: 40px;
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: left;
+
   }
   .imageHeight {
-    padding: 20px;
+    padding: 50px;
   }
 
 }
@@ -59,7 +60,7 @@
   }
   .sidebarRight,
   .sidebarLeft {
-    width: 70%;
+    // width: 70%;
     background: white;
     padding: 40px;
     margin-top: 40px;
@@ -75,9 +76,6 @@
   .sidebar {
     padding-left: 110px;
     padding-right: 110px;
-    .itemCenter {
-      align-content: center;
-    }
   }
   .contentRight {
     padding-bottom: 40px;
@@ -88,7 +86,6 @@
   }
   .sidebarRight,
   .sidebarLeft {
-    width: 60%;
     background: white;
     padding: 40px;
     margin-top: 40px;
@@ -137,7 +134,7 @@
   }
 }
 @media only screen and (min-width: 1000px) {
-  
+
   .contentLeft,
   .contentRight {
     width: 40%;
