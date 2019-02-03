@@ -1,5 +1,3 @@
-
-
 .centerImage {
   align-items: center;
   justify-content: center;
@@ -10,6 +8,11 @@
   width: 100%;
   background-size: cover;
   position: relative;
+}
+
+.content-right,
+.contentLeft {
+  font-size: 14px;
 }
 
 @media only screen and (max-width: 480px) {
@@ -34,15 +37,12 @@
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: left;
-
   }
   .imageHeight {
     padding: 50px;
   }
-
 }
 @media only screen and (min-width: 480px) {
-
   .sidebar {
     padding-left: 80px;
     padding-right: 80px;
@@ -68,7 +68,6 @@
   .imageHeight {
     padding: 30px;
   }
-
 }
 @media only screen and (min-width: 600px) {
   .sidebar {
@@ -95,7 +94,6 @@
   }
 }
 @media only screen and (min-width: 770px) {
-
   .contentLeft,
   .contentRight {
     width: 50%;
@@ -132,7 +130,6 @@
   }
 }
 @media only screen and (min-width: 1000px) {
-
   .contentLeft,
   .contentRight {
     width: 40%;
