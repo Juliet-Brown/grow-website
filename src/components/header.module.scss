@@ -11,7 +11,7 @@
   }
   &__list {
     justify-content: flex-end;
-    flex: 2.8;
+    flex: 4 1;
   }
   &__logo {
     justify-content: flex-end;
@@ -43,14 +43,15 @@
   &__list {
     list-style: none;
     text-transform: uppercase;
+    margin-bottom: 0;
 
     a {
       text-decoration: none;
       display: block;
       padding: 1em 1em;
+      color: white;
       margin-top: 20px;
 
-      color: white;
       &:hover {
         background-color: #57bd84;
       }
@@ -71,6 +72,7 @@
     }
   }
 }
+
 @media only screen and (min-width: 600px) {
   .flex {
     &__list {
@@ -85,6 +87,7 @@
       flex-direction: row;
     }
   }
+
   .header {
     &__navigation {
       padding-left: 50px;

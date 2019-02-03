@@ -3,9 +3,13 @@
   background: #2f2f2f;
 
   &__content {
-    margin-right: 220px;
-    margin-left: 220px;
+    font-size: 14px;
     margin-top: 20px;
+    padding: 20px 100px 20px 100px;
+
+    @media only screen and (max-width: 1200px) {
+      padding: 20px;
+    }
   }
 
   &__left {
@@ -29,8 +33,12 @@
     align-items: flex-end;
   }
   img {
-    width: 2em;
+    width: 1.7em;
     margin-left: 20px;
+
+    @media only screen and (max-width: 1200px) {
+      width: 1.4em;
+    }
   }
 }
 

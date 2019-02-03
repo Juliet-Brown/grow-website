@@ -4,18 +4,31 @@
 
 .contentLeft,
 .contentRight {
+  font-size: 14px;
   width: 40%;
   padding: 20px;
+
+  @media only screen and (max-width: 1200px) {
+    width: 520px;
+    padding: 30px;
+  }
 }
 
 .sidebarRight,
 .sidebarLeft {
+  font-size: 14px;
   width: 20%;
   background: white;
   padding: 20px;
   margin-top: 60px;
   margin-bottom: 60px;
   text-align: left;
+  margin: 20px;
+  @media only screen and (max-width: 1200px) {
+    width: 100%;
+    padding: 5px;
+    margin: 20px;
+  }
 }
 
 .flex {
@@ -40,7 +53,6 @@
 .centerImage {
   align-items: center;
   justify-content: center;
-
 }
 
 .imageHeight {
