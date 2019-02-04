@@ -7,13 +7,11 @@
   border: 1px solid gray;
   box-shadow: 7px 7px 7px #777777;
 }
-
 .flex {
   &__Container {
     display: flex;
     height: 10vh;
   }
-
   &__column {
     flex-direction: column;
   }

@@ -10,63 +10,64 @@
   position: relative;
 }
 
-.content-right,
+.contentRight,
 .contentLeft {
   font-size: 14px;
+}
+
+.contentRight {
+  padding-bottom: 40px;
+}
+
+.contentLeft {
+  padding-top: 40px;
+}
+
+.sidebar {
+  .itemCenter {
+    align-content: center;
+  }
+  font-size: 14px;
+}
+
+.sidebarRight,
+.sidebarLeft {
+  background: white;
+  text-align: left;
+}
+
+.imageHeight {
+  padding: 50px;
 }
 
 @media only screen and (max-width: 480px) {
   .sidebar {
     padding-left: 50px;
     padding-right: 50px;
-    .itemCenter {
-      align-content: center;
-    }
-  }
-  .contentRight {
-    padding-bottom: 40px;
   }
   .contentLeft {
-    padding-top: 40px;
     padding-bottom: 20px;
   }
   .sidebarRight,
   .sidebarLeft {
-    background: white;
     padding: 40px;
     margin-top: 20px;
     margin-bottom: 20px;
-    text-align: left;
-  }
-  .imageHeight {
-    padding: 50px;
   }
 }
 @media only screen and (min-width: 480px) {
   .sidebar {
     padding-left: 80px;
     padding-right: 80px;
-    .itemCenter {
-      align-content: center;
-    }
-  }
-  .contentRight {
-    padding-bottom: 40px;
   }
   .contentLeft {
-    padding-top: 40px;
     padding-bottom: 40px;
   }
   .sidebarRight,
   .sidebarLeft {
-    background: white;
     padding: 40px;
     margin-top: 40px;
     margin-bottom: 40px;
-    text-align: left;
-  }
-  .imageHeight {
-    padding: 30px;
   }
 }
 @media only screen and (min-width: 600px) {
@@ -74,23 +75,14 @@
     padding-left: 110px;
     padding-right: 110px;
   }
-  .contentRight {
-    padding-bottom: 40px;
-  }
   .contentLeft {
-    padding-top: 40px;
     padding-bottom: 40px;
   }
   .sidebarRight,
   .sidebarLeft {
-    background: white;
     padding: 40px;
     margin-top: 40px;
     margin-bottom: 40px;
-    text-align: left;
-  }
-  .imageHeight {
-    padding: 30px;
   }
 }
 @media only screen and (min-width: 770px) {
@@ -99,32 +91,25 @@
     width: 50%;
     padding: 60px;
   }
-
   .sidebarRight,
   .sidebarLeft {
     width: 30%;
-    background: white;
     padding: 20px;
     margin-top: 60px;
     margin-bottom: 60px;
-    text-align: left;
   }
-
   .flex {
     &__item {
       flex: 1;
       flex-direction: column;
     }
-
     &__container {
       display: flex;
     }
   }
-
   .flexCenter {
     justify-content: center;
   }
-
   .itemCenter {
     align-items: center;
   }
@@ -134,34 +119,5 @@
   .contentRight {
     width: 40%;
     padding: 40px;
-  }
-
-  .sidebarRight,
-  .sidebarLeft {
-    width: 30%;
-    background: white;
-    padding: 20px;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    text-align: left;
-  }
-
-  .flex {
-    &__item {
-      flex: 1;
-      flex-direction: column;
-    }
-
-    &__container {
-      display: flex;
-    }
-  }
-
-  .flexCenter {
-    justify-content: center;
-  }
-
-  .itemCenter {
-    align-items: center;
   }
 }

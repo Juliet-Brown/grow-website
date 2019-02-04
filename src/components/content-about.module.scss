@@ -1,17 +1,17 @@
+.sidebarLeft,
+.sidebarRight {
+  padding-top: 25px;
+}
+
+.imageLeft,
+.imageRight {
+  background: url("https://placeimg.com/640/480/any");
+  background-size: cover;
+  position: relative;
+  padding: 20px;
+}
 @media only screen and (max-width: 480px) {
   .content {
-    padding: 20px;
-  }
-  .sidebarLeft,
-  .sidebarRight {
-    padding-top: 25px;
-  }
-
-  .imageLeft,
-  .imageRight {
-    background: url("https://placeimg.com/640/480/any");
-    background-size: cover;
-    position: relative;
     padding: 20px;
   }
 }
@@ -19,121 +19,47 @@
   .content {
     padding: 20px 40px 20px 40px;
   }
-  .sidebarLeft,
-  .sidebarRight {
-    padding-top: 25px;
-    padding-bottom: 25px;
-  }
-
-  .imageLeft,
-  .imageRight {
-    background: url("https://placeimg.com/640/480/any");
-    background-size: cover;
-    position: relative;
-    padding: 20px;
-  }
 }
 @media only screen and (min-width: 600px) {
   .content {
     padding: 20px 100px 20px 100px;
-  }
-  .sidebarLeft,
-  .sidebarRight {
-    padding-top: 25px;
-    padding-bottom: 25px;
-  }
-
-  .imageLeft,
-  .imageRight {
-    background: url("https://placeimg.com/640/480/any");
-    background-size: cover;
-    position: relative;
-    padding: 20px;
   }
 }
 @media only screen and (min-width: 770px) {
   .content {
     padding: 40px 100px 40px 100px;
   }
-
   .sidebarLeft,
   .sidebarRight {
     width: 50%;
     padding: 45px;
   }
-
   .flex {
     &__item {
       flex: 1;
       flex-direction: column;
     }
-
     &__container {
       display: flex;
     }
   }
-
   .flexCenter {
     justify-content: center;
   }
-
   .itemCenter {
     align-items: center;
   }
-
   .centerImage {
     align-items: center;
     justify-content: center;
   }
-
   .imageLeft,
   .imageRight {
-    background: url("https://placeimg.com/640/480/any");
     width: 50%;
-    background-size: cover;
-    position: relative;
   }
 }
 @media only screen and (min-width: 1000px) {
   .content {
     padding: 50px 180px 50px 180px;
-  }
-
-  .sidebarLeft,
-  .sidebarRight {
-    width: 50%;
-    padding: 45px;
-  }
-
-  .flex {
-    &__item {
-      flex: 1;
-      flex-direction: column;
-    }
-
-    &__container {
-      display: flex;
-    }
-  }
-
-  .flexCenter {
-    justify-content: center;
-  }
-
-  .itemCenter {
-    align-items: center;
-  }
-
-  .centerImage {
-    align-items: center;
-    justify-content: center;
-  }
-
-  .imageLeft,
-  .imageRight {
-    background: url("https://placeimg.com/640/480/any");
-    width: 50%;
-    background-size: cover;
-    position: relative;
   }
 }

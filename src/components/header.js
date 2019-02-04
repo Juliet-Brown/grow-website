@@ -14,13 +14,18 @@ export default () => (
           headerStyles.flex__logo
         } `}
       >
-        <img src={icon} alt="icon" />
+        <img src={icon} alt="icon" width="90px" height="50px;" />
       </div>
-      <div className={` ${headerStyles.flex__item} `}>
-        <span className={`${headerStyles.header__grow} `}>GROW &nbsp; </span>
-        <a className={`${headerStyles.header__item}`} href="/home-css-modules">
-          Springload
-        </a>
+      <div className={` ${headerStyles.flex__item} ${headerStyles.header__title} `}>
+        <p>
+          <span className={`${headerStyles.header__grow} `}>GROW &nbsp; </span>
+          <a
+            className={`${headerStyles.header__item}`}
+            href="/home-css-modules"
+          >
+            Springload
+          </a>
+        </p>
       </div>
     </div>
     <ul

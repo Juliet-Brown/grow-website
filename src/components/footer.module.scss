@@ -1,90 +1,51 @@
+.footer {
+  height: auto;
+  background: #2f2f2f;
+  img {
+    width: 1.8em;
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }
+  &__content {
+    padding-top: 30px;
+    color: #fff;
+    font-size: 14px;
+  }
+  &__copy {
+    color: #000;
+    align-items: flex-end;
+    font-size: 12px;
+    margin-left: 20px;
+    padding-bottom: 5px;
+  }
+}
+
 @media only screen and (max-width: 480px) {
   .footer {
-    height: auto;
-    background: #2f2f2f;
-
-    img {
-      width: 1.8em;
-      margin-right: 20px;
-    }
-
     &__content {
       margin-right: 20px;
       margin-left: 20px;
-      padding-top: 30px;
-      color: #fff;
-      font-size: 16px;
-    }
-
-    &__copy {
-      color: #000;
-      align-items: flex-end;
-      font-size: 12px;
-      margin-left: 20px;
-      padding-bottom: 5px;
     }
   }
 }
 @media only screen and (min-width: 480px) {
   .footer {
-    height: auto;
-    background: #2f2f2f;
-
-    img {
-      width: 1.8em;
-      margin-right: 20px;
-    }
-
     &__content {
       margin-right: 40px;
       margin-left: 40px;
-      padding-top: 30px;
-      color: #fff;
-      font-size: 16px;
-    }
-
-    &__copy {
-      color: #000;
-      align-items: flex-end;
-      font-size: 12px;
-      margin-left: 20px;
-      padding-bottom: 5px;
     }
   }
 }
 @media only screen and (min-width: 600px) {
   .footer {
-    height: auto;
-    background: #2f2f2f;
-
-    img {
-      width: 1.8em;
-      margin-right: 20px;
-    }
-
     &__content {
       margin-right: 60px;
       margin-left: 60px;
-      padding-top: 30px;
-      color: #fff;
-      font-size: 16px;
-    }
-
-    &__copy {
-      color: #000;
-      align-items: flex-end;
-      font-size: 12px;
-      margin-left: 20px;
-      padding-bottom: 5px;
     }
   }
 }
-
 @media only screen and (min-width: 770px) {
   .footer {
-    height: auto;
-    background: #2f2f2f;
-
     .main {
       &__content {
         margin-right: 100px;
@@ -96,14 +57,13 @@
         margin-left: 20px;
       }
     }
+
     &__left {
-      color: #fff;
       text-align: left;
       justify-content: flex-start;
       flex: 1;
       padding-right: 40px;
     }
-
     &__right {
       justify-content: flex-end;
       flex: 1;
@@ -111,14 +71,9 @@
       text-align: right;
       padding-left: 40px;
     }
-    &__copy {
-      color: #000;
-      align-items: flex-end;
-    }
     .flexItem {
       flex: 1;
     }
-
     .flexCenter {
       justify-content: center;
     }
@@ -131,13 +86,9 @@
 }
 @media only screen and (min-width: 1000px) {
   .footer {
-    height: auto;
-    background: #2f2f2f;
-
     &__content {
       margin-right: 220px;
       margin-left: 220px;
-      padding-top: 20px;
     }
   }
 }
