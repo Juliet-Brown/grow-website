@@ -21,7 +21,7 @@
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 425px) {
   .footer {
     &__content {
       margin-right: 20px;
@@ -29,7 +29,7 @@
     }
   }
 }
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 425px) {
   .footer {
     &__content {
       margin-right: 40px;
@@ -45,7 +45,7 @@
     }
   }
 }
-@media only screen and (min-width: 770px) {
+@media only screen and (min-width: 768px) {
   .footer {
     .main {
       &__content {
@@ -85,7 +85,7 @@
     }
   }
 }
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1024px) {
   .footer {
     &__content {
       margin-right: 220px;

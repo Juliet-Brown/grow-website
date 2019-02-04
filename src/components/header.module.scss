@@ -1,4 +1,4 @@
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 425px) {
   img {
     width: 45px;
     height: 25px;
@@ -66,7 +66,7 @@
     }
   }
 }
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 425px) {
   .flex {
     &__item {
       flex: 1;
@@ -195,7 +195,7 @@
     }
   }
 }
-@media only screen and (min-width: 770px) {
+@media only screen and (min-width: 768px) {
   .flex {
     &__item {
       flex: 1;
@@ -258,7 +258,7 @@
     }
   }
 }
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1024px) {
   .flex {
     &__item {
       flex: 1;
