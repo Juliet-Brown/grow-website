@@ -1,0 +1,22 @@
+[
+    {
+        "componentChunkName": "component---src-pages-about-css-modules-js",
+        "jsonName": "about-css-modules-c4c",
+        "path": "/about-css-modules/"
+    },
+    {
+        "componentChunkName": "component---cache-dev-404-page-js",
+        "jsonName": "dev-404-page-5f9",
+        "path": "/dev-404-page/"
+    },
+    {
+        "componentChunkName": "component---src-pages-home-css-modules-js",
+        "jsonName": "home-css-modules-78c",
+        "path": "/home-css-modules/"
+    },
+    {
+        "componentChunkName": "component---src-pages-join-css-modules-js",
+        "jsonName": "join-css-modules-6fd",
+        "path": "/join-css-modules/"
+    }
+]

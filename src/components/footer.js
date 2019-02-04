@@ -49,9 +49,9 @@ export default ({ footerDescription }) => (
         </p>
       </div>
     </main>
-    <div className={`${footerStyles.footer__copy}`}>
+    {/* <div className={`${footerStyles.footer__copy}`}>
       {" "}
       &copy; {footerDescription}{" "}
-    </div>
+    </div> */}
   </footer>
 );
