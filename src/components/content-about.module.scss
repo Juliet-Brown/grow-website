@@ -1,4 +1,3 @@
-.sidebarLeft,
 .sidebarRight {
   padding-top: 25px;
 }
@@ -9,6 +8,10 @@
   background-size: cover;
   position: relative;
   padding: 20px;
+}
+
+.content {
+  font-size: 14px;
 }
 @media only screen and (max-width: 480px) {
   .content {
