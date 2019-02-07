@@ -8,6 +8,7 @@
   width: 100%;
   background-size: cover;
   position: relative;
+  padding: 50px;
 }
 
 .contentRight,
@@ -34,10 +35,6 @@
 .sidebarLeft {
   background: white;
   text-align: left;
-}
-
-.imageHeight {
-  padding: 50px;
 }
 
 @media only screen and (max-width: 425px) {
@@ -74,15 +71,6 @@
   .sidebar {
     padding-left: 110px;
     padding-right: 110px;
-  }
-  .contentLeft {
-    padding-bottom: 40px;
-  }
-  .sidebarRight,
-  .sidebarLeft {
-    padding: 40px;
-    margin-top: 40px;
-    margin-bottom: 40px;
   }
 }
 @media only screen and (min-width: 768px) {
