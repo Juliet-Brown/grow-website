@@ -1,137 +1,70 @@
-@media only screen and (max-width: 425px) {
-  img {
-    width: 45px;
-    height: 25px;
+.header {
+  &__grow {
+    color: #57bd84;
   }
-  .flex {
-    &__item {
-      flex: 1;
-      display: flex;
-      align-items: center;
-      justify-content: flex-start;
-    }
-    &__container {
-      display: flex;
-    }
-    &__list {
-      justify-content: flex-end;
-      flex: 2.8;
-      flex-wrap: wrap;
-      flex-direction: column;
-    }
-    &__logo {
-      justify-content: flex-end;
-      flex: 0.5;
-    }
+  &__item {
+    color: white;
+    text-decoration: none;
   }
-  .header {
-    &__grow {
-      color: #57bd84;
+  &__navigation {
+    background: #2f2f2f;
+    padding-top: 10px;
+  }
+  &__list {
+    list-style: none;
+    text-transform: uppercase;
+    li {
+      display: inline;
     }
-    &__title {
-      margin-top: 50px;
-    }
-    &__item {
-      color: white;
+    a {
       text-decoration: none;
-    }
-    &__container {
-      display: flex;
-    }
-    &__navigation {
-      display: flex;
-      background: #2f2f2f;
-      padding-top: 10px;
-    }
-    &__list {
-      list-style: none;
-      text-transform: uppercase;
-      padding-top: 14px;
-
-      a {
-        text-decoration: none;
-        display: block;
-        padding: 0.8em 0.8em;
-        color: white;
-        &:hover {
-          background-color: #57bd84;
-        }
+      color: white;
+      &:hover {
+        color: #57bd84;
       }
-    }
-    &__img {
-      width: 50px;
-      margin-right: 10px;
-      margin-left: 20px;
-      fill: #57bd84;
     }
   }
 }
-@media only screen and (min-width: 425px) {
+@media only screen and (max-width: 325px) {
   .flex {
-    &__item {
-      flex: 1;
-      display: flex;
-      align-items: center;
-      justify-content: flex-start;
-    }
-    &__container {
-      display: flex;
-    }
     &__list {
-      justify-content: flex-end;
-      flex: 2.8;
-      flex-wrap: wrap;
-      flex-direction: column;
-    }
-    &__logo {
-      justify-content: flex-end;
-      flex: 0.5;
+      justify-content: space-between;
     }
   }
-  /* *********************************
-   *    Header                 *
-   **********************************/
-
   .header {
-    &__grow {
-      color: #57bd84;
-    }
-    &__item {
-      color: white;
-      text-decoration: none;
-    }
-    &__container {
-      display: flex;
-    }
     &__navigation {
-      display: flex;
-      background: #2f2f2f;
-      padding-left: 40px;
-      padding-right: 40px;
-      padding-top: 10px;
+      padding: 20px 40px 20px 40px;
     }
     &__list {
-      list-style: none;
-      text-transform: uppercase;
-      padding-top: 14px;
-
-      a {
-        text-decoration: none;
-        display: block;
-        padding: 1em 1em;
-        color: white;
-        &:hover {
-          background-color: #57bd84;
-        }
+      display: flex;
+      li {
+        display: inline;
       }
-    }
-    &__img {
-      width: 5em;
-      fill: #57bd84;
     }
   }
 }
-@media only screen and (min-width: 600px) {
+
+@media only screen and (min-width: 325px) {
+  .flex {
+    &__list {
+      justify-content: flex-start;
+    }
+  }
+  .header {
+    &__navigation {
+      padding: 20px 40px 20px 40px;
+    }
+    &__list {
+      display: flex;
+      li {
+        display: inline;
+        padding-right: 40px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 500px) {
   .flex {
     &__item {
       flex: 1;
@@ -158,166 +91,37 @@
    **********************************/
 
   .header {
-    &__grow {
-      color: #57bd84;
-    }
-    &__item {
-      color: white;
-      text-decoration: none;
-    }
     &__container {
       display: flex;
     }
     &__navigation {
       display: flex;
-      background: #2f2f2f;
-      padding-left: 40px;
-      padding-right: 40px;
-      padding-top: 10px;
+      padding-left: 30px;
+      padding-right: 30px;
     }
     &__list {
-      list-style: none;
-      text-transform: uppercase;
-
+      li {
+        padding-right: 0;
+      }
       a {
-        text-decoration: none;
         display: block;
         padding: 1em 1em;
-        color: white;
-        &:hover {
-          background-color: #57bd84;
-        }
       }
-    }
-    &__img {
-      width: 5em;
-      fill: #57bd84;
     }
   }
 }
 @media only screen and (min-width: 768px) {
-  .flex {
-    &__item {
-      flex: 1;
-      display: flex;
-      align-items: center;
-      justify-content: flex-start;
-    }
-    &__container {
-      display: flex;
-      flex-direction: row;
-    }
-    &__list {
-      justify-content: flex-end;
-      flex: 2.8;
-    }
-    &__logo {
-      justify-content: flex-end;
-      flex: 0.5;
-    }
-  }
-  /* *********************************
-   *    Header                 *
-   **********************************/
 
   .header {
-    &__grow {
-      color: #57bd84;
-    }
-    &__item {
-      color: white;
-      text-decoration: none;
-    }
-    &__container {
-      display: flex;
-    }
     &__navigation {
-      display: flex;
-      background: #2f2f2f;
       padding-left: 50px;
       padding-right: 50px;
-      padding-top: 10px;
-    }
-    &__list {
-      list-style: none;
-      text-transform: uppercase;
-
-      a {
-        text-decoration: none;
-        display: block;
-        padding: 1em 1em;
-        color: white;
-        &:hover {
-          background-color: #57bd84;
-        }
-      }
-    }
-    &__img {
-      width: 5em;
-      fill: #57bd84;
     }
   }
 }
 @media only screen and (min-width: 1024px) {
-  .flex {
-    &__item {
-      flex: 1;
-      display: flex;
-      align-items: center;
-      justify-content: flex-start;
-    }
-    &__container {
-      display: flex;
-      flex-direction: row;
-    }
-    &__list {
-      justify-content: flex-end;
-      flex: 2.8;
-    }
-    &__logo {
-      justify-content: flex-end;
-      flex: 0.5;
-    }
-  }
-  /* *********************************
-   *    Header                 *
-   **********************************/
-
-  .header {
-    &__grow {
-      color: #57bd84;
-    }
-    &__item {
-      color: white;
-      text-decoration: none;
-    }
-    &__container {
-      display: flex;
-    }
     &__navigation {
-      display: flex;
-      background: #2f2f2f;
       padding-left: 100px;
       padding-right: 100px;
-      padding-top: 10px;
     }
-    &__list {
-      list-style: none;
-      text-transform: uppercase;
-
-      a {
-        text-decoration: none;
-        display: block;
-        padding: 1em 1em;
-        color: white;
-        &:hover {
-          background-color: #57bd84;
-        }
-      }
-    }
-    &__img {
-      width: 5em;
-      fill: #57bd84;
-    }
-  }
 }

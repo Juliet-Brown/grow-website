@@ -9,15 +9,12 @@ export default () => (
         headerStyles.flex__container
       } `}
     >
-      <div
-        className={`${headerStyles.header__img}  ${headerStyles.flex__item} ${
-          headerStyles.flex__logo
-        } `}
-      >
-        <img src={icon} alt="icon" width="90px" height="50px;" />
-      </div>
-      <div className={` ${headerStyles.flex__item} ${headerStyles.header__title} `}>
+
+      <div className={` ${headerStyles.flex__item} ${headerStyles.header__title} ${headerStyles.header__img}  ${headerStyles.flex__item} ${
+        headerStyles.flex__logo
+      }`}>
         <p>
+          <img src={icon} alt="icon" width="45px" height="25px;" />
           <span className={`${headerStyles.header__grow} `}>GROW &nbsp; </span>
           <a
             className={`${headerStyles.header__item}`}
