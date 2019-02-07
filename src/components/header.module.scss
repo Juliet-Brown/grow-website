@@ -64,16 +64,13 @@
   }
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 600px) {
   .flex {
     &__item {
-      flex: 1;
-      display: flex;
       align-items: center;
       justify-content: flex-start;
     }
     &__container {
-      display: flex;
       flex-direction: row;
     }
     &__list {
@@ -83,6 +80,7 @@
     }
     &__logo {
       justify-content: flex-end;
+      flex-direction: row;
       flex: 0.5;
     }
   }
@@ -91,6 +89,9 @@
    **********************************/
 
   .header {
+    &__item {
+      padding-top: 10px;
+    }
     &__container {
       display: flex;
     }
@@ -101,6 +102,7 @@
     }
     &__list {
       li {
+        display: flex;
         padding-right: 0;
       }
       a {
